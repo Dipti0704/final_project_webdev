@@ -1,0 +1,126 @@
+
+.main{
+    background-color: aqua;
+}
+.toolbox-cont{
+    display:flex;
+    background-color: rgb(167, 226, 223);
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box_left{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    
+}
+.box-right{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    
+
+}
+
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 2rem;
+    padding: 2rem;
+    border-right: 2px solid grey;
+}
+.box1{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+    
+    background-color: bisque;
+    
+
+}
+#freeform{
+    display: block;
+    padding: 5%;
+}
+
+.second-box{
+    display: flex;
+    height : 100 vh;
+    
+    width: 100%;
+    background-color: aqua;
+
+}
+.box2{
+    display: flex;
+    background-color: aqua;
+    justify-content: right;
+    align-items: center;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card { 
+    height: auto; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: rgb(247, 236, 236); 
+    margin-top: 10px; 
+} 
+.text { 
+    display: block; 
+    font-size: 20px; 
+    font-weight: bold; 
+} 
+.reply { 
+    color: rgb(84, 84, 233); 
+    cursor: pointer; 
+    margin-top: 5px; 
+} 
+.comment-details { 
+    margin-left: 4rem; 
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+} 
+.input { 
+    height: 30px; 
+    border-radius: 10px; 
+} 
+.btn { 
+    color: rgb(160, 81, 81); 
+    margin-left: 5px; 
+    background-color: rgb(135, 135, 235); 
+    border: 0px; 
+    border-radius: 10px; 
+    height: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(124, 92, 92, 0.2); 
+    cursor: pointer; 
+} 
+.all-comment:not(:first-child) { 
+    margin-left: 4rem; 
+}
+
+
